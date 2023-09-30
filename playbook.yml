@@ -1,0 +1,10 @@
+---
+- hosts: httpdserver
+  become: true
+  roles:
+          - apache
+
+- hosts: nginxserver
+  become: true
+  roles:
+          - nginx

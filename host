@@ -1,0 +1,2 @@
+nginxserver ansible_host=192.168.10.112 ansible_user=ansible ansible_password=1234 ansible_sudo_pass=1234
+httpdserver ansible_host=192.168.10.113 ansible_user=ansible ansible_password=1234 ansible_sudo_pass=1234
